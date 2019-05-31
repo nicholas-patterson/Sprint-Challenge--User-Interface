@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+}
+
+.site-logo {
+  padding-bottom: 20px;
+}
