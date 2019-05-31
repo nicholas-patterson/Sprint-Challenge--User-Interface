@@ -2,3 +2,61 @@
   margin: 0 auto;
   width: 800px;
 }
+
+body {
+  background: #e3e3e3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+}
+
+.site-logo {
+  padding-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: transparent;
+  margin-bottom: 5px;
+}
+
+.submit {
+  width: 25%;
+  background: crimson;
+  color: white;
+  font-size: 18px;
+}
+
+.submit:hover {
+  background: white;
+  color: crimson;
+}
+
+nav a:hover {
+  color: crimson;
+}
