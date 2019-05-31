@@ -69,3 +69,18 @@ button {
   width: 370px;
   font-size: 18px;
 }
+
+/* Styles for para in grids */
+.about h3 {
+  font-weight: 300;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+.collab {
+  font-size: 18px;
+}
+
+/* ********************** */
