@@ -42,7 +42,30 @@ hr {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 100px;
+  width: 100%;
   padding-top: 20px;
   margin-left: 15px;
+}
+
+.grids {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.border {
+  border-bottom: 1px dashed black;
+}
+
+button {
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.fifty {
+  width: 370px;
+  font-size: 18px;
 }
