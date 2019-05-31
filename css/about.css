@@ -34,3 +34,15 @@ nav a {
   padding-bottom: 20px;
 }
 /* ********************* */
+
+hr {
+  border: 0.5px dashed black;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  padding-top: 20px;
+  margin-left: 15px;
+}
