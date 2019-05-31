@@ -84,3 +84,21 @@ button {
 }
 
 /* ********************** */
+
+/* ******** Footer ****** */
+
+footer {
+  height: 60px;
+  display: flex;
+  background: black;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer nav {
+  justify-content: center;
+}
+
+footer nav a {
+  color: white;
+}
